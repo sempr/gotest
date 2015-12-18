@@ -13,6 +13,6 @@ func Test_Division_1(t *testing.T) {
 }
 
 func Test_Division_2(t *testing.T) {
-	//t.Log("第二个测试也通过了....")
-	t.Error("haha you failed the test")
+	t.Log("test 2 passed....")
+	//t.Error("haha you failed the test")
 }
