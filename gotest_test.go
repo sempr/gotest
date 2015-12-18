@@ -6,13 +6,13 @@ import (
 
 func Test_Division_1(t *testing.T) {
 	if i, e := Division(6, 2); i != 3 || e != nil { //try a unit test on function
-		t.Error("除法函数测试没通过") // 如果不是如预期的那么就报错
+		t.Error("divide not pass, result should be 3")
 	} else {
-		t.Log("第一个测试通过了") //记录一些你期望记录的信息
+		t.Log("test 1 passed!")
 	}
 }
 
 func Test_Division_2(t *testing.T) {
 	//t.Log("第二个测试也通过了....")
-	t.Error("就是不通过")
+	t.Error("haha you failed the test")
 }
